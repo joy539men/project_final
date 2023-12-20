@@ -1,0 +1,109 @@
+body {
+    padding-top: 56px;
+    /* 調整導覽列位置 */
+}
+
+/* 將導覽列至於左側 */
+@media (min-width: 768px) {
+    body {
+        padding-left: 250px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 100vh;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+}
+/* 導覽列 */
+.navbar{
+    border-right: 1px solid rgb(223, 212, 212);
+    box-shadow: 0px 1px 5px;
+}
+
+.navbar-title {
+    margin: 30px 15px;
+    text-wrap: wrap;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbarNav {
+    width: 100%;
+    padding-top: 20px;
+}
+
+#navbarNav .nav-item {
+    margin: 10px 45px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#navbarNav a:hover {
+    color: #006bafff !important;
+    text-shadow: 1px 5px 4px;
+}
+
+/* 資料呈現位置 */
+thead th,
+tbody td,
+tfoot td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 15px !important;
+}
+tbody th{
+    width: 120px !important;
+    padding: 15px !important;
+}
+
+tbody th{
+    width: 300px;
+    font-size: large;
+}
+
+tfoot button{
+    border-radius: 10px;
+    background-color: #05aeadff ;
+    color: #d5dcd4ff;
+    border: none;
+    padding: 8px;
+    margin:15px 8px ;
+    font-size: large;
+    font-weight: 900;
+}
+
+tfoot button:hover{
+    background-color: #006bafff;
+    color: #d5dcd4ff;
+}
+
+.container1{
+    margin: 50px auto;
+    width: 900px;
+    background-color: rgba(224, 242, 229, 1) ;
+    border: 1px solid  rgba(224, 242, 229, 1);
+    border-radius: 15px;
+}
+
+form{
+    width: 700px;
+    margin: 30px auto;
+}
+
+table input{
+    border-radius: 10px;
+    padding: 0 10px;
+    border: none;
+}
