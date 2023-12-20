@@ -26,13 +26,18 @@ nav>img {
     padding-top: 20px;
     background-color: rgba(224, 242, 229, 1);
     border-radius: 10px;
-    margin: 0 30px;
+    margin: 0 30px 15px 30px;
 }
 
 #navbarNav .nav-item {
     margin: 10px 45px;
     font-size: 25px;
     text-align: center;
+}
+
+#navbarNav +div a{
+    text-decoration: none;
+    font-size: 25px;
 }
 
 #navbarNav a:hover {
@@ -91,17 +96,71 @@ nav>img {
 /* 資料呈現置中 */
 tbody td,
 tbody th,
-thead th {
+thead th,
+tfoot td {
     vertical-align: middle;
     text-align: center;
+}
+
+/* 編輯資料內容 */
+#edit_tbody th {
+    width: 120px !important;
+    padding: 15px !important;
+    width: 300px;
+    font-size: large;
+}
+
+#tableArea i {
+    color: rgb(90, 88, 88);
+    font-size: 20px
+}
+
+tfoot button{
+    border-radius: 10px;
+    background-color: #05aeadff ;
+    color: #d5dcd4ff;
+    border: none;
+    padding: 8px;
+    margin:15px 8px ;
+    font-size: large;
+    font-weight: 900;
+}
+
+tfoot button:hover{
+    background-color: #006bafff;
+    color: #d5dcd4ff;
+}
+
+.container1{
+    margin: 110px auto;
+    width: 90%;
+    background-color: rgba(224, 242, 229, 1) ;
+    border: 1px solid  rgba(224, 242, 229, 1);
+    border-radius: 15px;
+}
+
+#info{
+    width: 80%;
+    margin: 30px auto;
+}
+
+#info tbody th{
+    font-size: large;
 }
 
 /* 編輯、刪除、禁用 */
 #tableArea i:hover {
     color: red !important;
 }
+/* 編輯表單 */
+#account_edit_form {
+    width: 75%;
+    margin: 30px auto;
+}
 
-#tableArea i {
-    color: rgb(90, 88, 88);
-    font-size: 20px
+table input {
+    border-radius: 10px;
+    padding: 0 10px;
+    border: none;
+    width: 30%;
 }
