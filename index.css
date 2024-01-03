@@ -41,7 +41,7 @@ nav>img {
 }
 
 #navbarNav a:hover {
-    color: gba(46, 163, 71) !important;
+    color:  #006bafff !important;
     background-color: rgba(46, 163, 71, 0.336);
     border-radius: 15px;
 }
@@ -118,7 +118,7 @@ tfoot td {
 tfoot button{
     border-radius: 10px;
     background-color: #05aeadff ;
-    color: #d5dcd4ff;
+    color: rgb(230, 237, 229);
     border: none;
     padding: 8px;
     margin:15px 8px ;
@@ -133,10 +133,9 @@ tfoot button:hover{
 
 .container1{
     margin: 110px auto;
-    width: 90%;
-    background-color: rgba(224, 242, 229, 1) ;
-    border: 1px solid  rgba(224, 242, 229, 1);
-    border-radius: 15px;
+    width: 65%;
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
 #info{
@@ -159,8 +158,7 @@ tfoot button:hover{
 }
 
 table input {
-    border-radius: 10px;
-    padding: 0 10px;
-    border: none;
-    width: 30%;
+    border-radius: 5px;
+    padding: 1px 10px;
+    width: 50%;
 }
